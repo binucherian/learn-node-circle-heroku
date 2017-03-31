@@ -1,0 +1,29 @@
+{
+    "name": "learn-node-circle-heroku",
+    "version": "1.0.0",
+    "description": "sample learing project",
+    "main": "app.js",
+    "scripts": {
+        "test": "mocha",
+        "start": "node app.js"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/binucherian/learn-node-circle-heroku.git"
+    },
+    "author": "binu cherian",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/binucherian/learn-node-circle-heroku/issues"
+    },
+    "homepage": "https://github.com/binucherian/learn-node-circle-heroku#readme",
+    "dependencies": {
+        "ejs": "^2.5.6",
+        "express": "^4.15.2",
+        "mocha": "^3.2.0",
+        "supertest": "^3.0.0"
+    }
+}
