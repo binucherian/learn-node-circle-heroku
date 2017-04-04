@@ -1,0 +1,9 @@
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: learn-node-circle-heroku
+
+test:
+  override:
+    - mocha
